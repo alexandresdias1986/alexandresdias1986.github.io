@@ -1,0 +1,186 @@
+* {
+    background: #086860;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoalura
+ {
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 2%;
+}
+
+main {
+    display:flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    
+    border: none;
+    color: #1f3003;
+    margin-top: 10px;
+    text-transform: lowercase;
+
+
+}
+
+::placeholder { color: #edf0e6; }
+
+  .text-area:focus {
+    all:unset; 
+    outline: none;
+    }
+    
+.mensagem 
+{
+        display: block;
+        font-size: 27px;
+        font-weight: 700;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+
+
+.mensagemsaida {
+    display: none;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+    .area  { 
+        width: 400px;
+        height: 300px;
+        font-size: 26px;
+        resize: none;
+        position: absolute;
+        left:400px;
+        top: 100px;
+        border: none;
+        padding: 20px;
+    }
+
+    
+.mensagem:focus {
+        outline: none;
+    }
+
+.botoes {
+        display: flex;
+        margin-top: 18px;
+    }
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar, .btn-copiar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #dae0e7;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+
+   margin-bottom: 20px;
+  
+}
+
+
+.informacao {
+    
+    left: 250px;
+    top: 370px;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 80%;
+    vertical-align: top;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+
+
+.output{
+    width: 600px;
+    height: 600px;
+    left: 600px;
+    top: 500px;
+    background: rgb(6, 6, 43);
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+
+.mensagem-secundaria {
+   
+    padding: 100px;
+    font-size: 20px;
+    font-weight: normal;
+    ;
+    
+   
+
+}
+
+
+/*rodape*/
+
+.github, .linkedin, .email {
+    margin-left: 51px;
+    transition: 0.2s;
+    width: 10%;
+    
+
+}
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    color: black;top: 100px;
+  }
+
+    .cidade{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-style: inherit;
+        font-size: large;
+        text-align: center;
+        color: aqua;
+    }
+
+    .github:hover, .linkedin:hover, .email:hover {
+        transform: scale(1.8);
+    }
+
+    footer {
+        
+        top: 850px;
+        left: 770px;
+    }
+  
+
+
